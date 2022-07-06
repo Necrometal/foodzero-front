@@ -1,0 +1,36 @@
+@import './variable.scss';
+
+.item-menu {
+    margin-top: 108px;
+}
+
+.menu-price {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: right;
+    border-bottom: 4px dashed $black;
+    padding-bottom: 6px;
+}
+
+.menu-title{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 84px;
+    margin-top: 24px;
+}
+
+.menu-description{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $dark_grey;
+    margin-top: 24px;
+}

@@ -1,0 +1,179 @@
+@import './variable.scss';
+
+.navbar-section {
+    height: 208px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+}
+
+#logo{
+    width: 307px;
+	height: 115px;
+}
+
+#subtract {
+    position: absolute;
+	top: 0px;
+	left: 55px;
+	width: 192px;
+	height: 115px;
+}
+
+
+#foodzero {
+    position: absolute;
+	top: 23px;
+	left: 0px;
+	width: 307px;
+	height: 54px;
+}
+
+.navbar-menu-toggler{
+    width: 94px;
+    height: 71px;
+    background: transparent;
+    border: none;
+}
+
+.navbar-menu-toggler i {
+    font-size: 45px;
+    color: white;
+}
+
+.navbar-reservation-btn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 46px;
+    gap: 10px;
+    width: 285px;
+    height: 88px;
+    border: 2px solid $white;
+    color: $white;
+    text-decoration: none;
+
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.contact-number{
+    margin-right: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: $white;
+}
+
+.navbar-item-full {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    width: 100%;
+}
+
+.navbar-item-content {
+    height: 100%;
+    z-index: 4;
+    background: $dark_green_opacited;
+}
+
+.navbar-item-content li .menu-list-item {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 82px;
+    text-transform: uppercase;
+    color: $white;
+    text-decoration: none;
+}
+
+.navbar-contact {
+    height: 298px;
+    position: absolute;
+    right: 186px;
+    bottom: 20%;
+    width: 297px;
+}
+
+.dashed {
+    border-bottom: 4px dashed $white;
+}
+
+.ml-2 {
+    margin-left: 1rem;
+}
+
+.navbar-close {
+    width: 94px;
+    height: 71px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 34px;
+    left: 46px;
+}
+
+.navbar-close i {
+    font-size: 45px;
+}
+
+.bg-navbar {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+.bg-navbar img{
+    width: 100%;
+}
+
+.list-menu{
+    list-style: none;
+}
+
+.list-menu::before{
+    content: "\2022";
+    color: $white;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    font-size: 40px;
+    top: 6px;
+}
+
+.active a{
+    color: $light_green !important;
+}
+
+.active::before{
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    font-size: 40px;
+    top: 6px;
+    color: $light_green !important;
+}

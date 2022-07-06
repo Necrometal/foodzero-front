@@ -1,0 +1,97 @@
+@import './variable.scss';
+
+.opentime {
+    width: 696px;
+    margin-top: 93px;
+}
+
+.opentime-line{
+    height: 0px;
+    border-bottom: 4px dashed $white;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.opentime-title {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: $white;
+}
+
+.opentime-value{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+
+    letter-spacing: 0.02em;
+    color: $white;
+}
+
+.opentime-content-value {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $white;
+}
+
+.section-contact {
+    padding-top: 200px;
+    padding-bottom: 185.5px;
+}
+
+.contact-img img {
+    width: 100%;
+}
+
+.contact-value {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.space-between-contact-bloc {
+    margin-bottom: 72.5px;
+    margin-top: 72.5px;
+}
+
+.located {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: $dark_green;
+}
+
+.view-map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 46px;
+    gap: 10px;
+
+    text-decoration: none;
+    color: $black;
+    border: 2px solid $black;
+
+    width: 293px;
+    height: 88px;
+
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 73px;
+}

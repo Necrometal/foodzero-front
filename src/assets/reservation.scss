@@ -1,0 +1,83 @@
+@import './variable.scss';
+
+.section-reservation {
+    padding-top: 237px;
+    padding-bottom: 254px;
+}
+
+.form-reservation {
+    margin-top: 116px;
+}
+
+.input-reservation{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 12px;
+    height: 75px;
+    border: 2px solid #000000;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $black;
+    background-color: transparent;
+}
+
+.input-reservation-select {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 12px;
+    height: 75px;
+    border: 2px solid #000000;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $black;
+    background-color: transparent;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.arrow-select {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    font-size: 25px;
+}
+
+.margin-input {
+    margin-bottom: 46px;
+}
+
+.btn-reservation {
+    width: 327px;
+    height: 88px;
+    background: $green;
+    border: 2px solid $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 46px;
+    gap: 10px;
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}

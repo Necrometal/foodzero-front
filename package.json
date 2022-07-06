@@ -1,0 +1,26 @@
+{
+  "name": "foodzerofront",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.3",
+    "moment": "^2.29.3",
+    "pinia": "^2.0.14",
+    "turbolinks": "^5.2.0",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "vite": "^2.9.12"
+  }
+}

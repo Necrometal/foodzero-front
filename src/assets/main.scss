@@ -1,0 +1,135 @@
+@import './variable.scss';
+
+.container-section {
+    padding-left: 138px;
+    padding-right: 138px;
+}
+
+.section-white {
+    background-color: $white;
+}
+
+.section-dark-green {
+    background-color: $dark_green;
+}
+
+.section-light-green {
+    background-color: $light_green;
+}
+
+.section-tranparent-green {
+    background-color: $tranparent_green;
+}
+
+.arrow-icon {
+    font-size: 45px;
+}
+
+.color-black {
+    color: $black;
+}
+
+.color-dark-grey {
+    color: $dark_grey;
+}
+
+.color-grey {
+    color: $grey;
+}
+
+.color-white {
+    color: $white;
+}
+
+.color-dark-green {
+    color: $dark_green;
+}
+
+.color-green {
+    color: $green;
+}
+
+.color-light-green {
+    color: $light_green;
+}
+
+.gradient {
+    top: 0px;
+	left: 0px;
+	width: 508px;
+	height: 160px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-91.187992374489deg , rgba(35,48,0,1) 0%, rgba(35,48,0,0) 100%);
+	background: -o-linear-gradient(-91.187992374489deg , rgba(35,48,0,1) 0%, rgba(35,48,0,0) 100%);
+	background: -moz-linear-gradient(-91.187992374489deg , rgba(35,48,0,1) 0%, rgba(35,48,0,0) 100%);
+	background: -ms-linear-gradient(-91.187992374489deg , rgba(35,48,0,1) 0%, rgba(35,48,0,0) 100%);
+	background: linear-gradient(-91.187992374489deg , rgba(35,48,0,1) 0%, rgba(35,48,0,0) 100%);
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.headline {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.headline .title{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 108px;
+    line-height: 120px;
+    text-align: center;
+    color: $black;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.headline .subtitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* 4D4D4D */
+
+    color: $dark_grey;
+    margin-top: 18px;
+}
+
+.auto-layout {
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.contact-container .little-title{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: $white;
+}
+
+.contact-container .contact-info {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: $white;
+}

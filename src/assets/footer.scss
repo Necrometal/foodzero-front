@@ -1,0 +1,126 @@
+@import './variable.scss';
+
+.footer-top {
+    padding-top: 132px;
+    padding-bottom: 132px;
+    color: $white;
+}
+
+.footer-top-info{
+    height: 230px;
+}
+
+.footer-bottom {
+    height: 132px;
+    color: $white;
+}
+
+.line-footer {
+    height: 0px;
+    border: 2px dashed #FFFFFF;
+}
+
+.copyright {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $white;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-between;
+    width: 194px;
+}
+
+.sitename {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 84px;
+    color: $white;
+}
+
+.address {
+    margin-top: 28px;
+}
+
+.contact-info a {
+    color: $white;
+    text-decoration: none;
+}
+
+.text-recipe{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: $white;
+    margin-top: 10px;
+}
+
+.input-recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 12px;
+
+    width: 523px;
+    height: 96px;
+    border: 2px solid $white;
+
+    color: $white;
+    background-color: transparent;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+.input-recipe:active {
+    border: 2px solid $white;
+}
+
+.btn-recipe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 46px;
+    gap: 10px;
+
+    width: 241px;
+    height: 88px;
+    background: $green;
+    border: none;
+
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: $white;
+}
+.little-title {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: $white;
+}
+

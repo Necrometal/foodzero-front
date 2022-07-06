@@ -1,0 +1,32 @@
+@import './variable.scss';
+
+.section-our-menu{
+    padding-top: 216px;
+    padding-bottom: 218px;
+}
+
+.our-menu-title-section {
+    width: 532px;
+}
+
+.our-menu-content{
+    margin-top: 50px;
+}
+
+.our-menu-title h2{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 108px;
+    line-height: 120px;
+}
+
+.our-menu-description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $dark_grey;
+}

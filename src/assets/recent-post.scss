@@ -1,0 +1,90 @@
+@import './variable.scss';
+
+.section-recent-post{
+    padding-top: 130px;
+    padding-bottom: 105px;
+}
+
+.img-post{
+    width: 100%;
+}
+
+.post-info{
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 68px;
+    padding-bottom: 82px;
+}
+
+.post-subinfo{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.02em;
+    color: $green;
+}
+
+.post-title{
+    margin-top: 48px;
+    border-bottom: 4px dashed $black;
+}
+
+.post-title h3{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.post-description {
+    margin-top: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $dark_grey;
+}
+
+.post-read-more{
+    text-decoration: none;
+    color: $dark_grey;
+    margin-top: 46px;
+}
+
+.post-read-more span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $black;
+}
+
+.post-categorie {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    top: 12px;
+    right: 34px;
+    background: $green;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.08);
+    color: $white;
+
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
