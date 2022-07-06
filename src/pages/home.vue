@@ -7,6 +7,7 @@
         <RecentPost />
         <Reservation />
         <SectionCategorie :categories="categories" />
+        <TestimonialSection />
         <FooterSection />
     </div>
 </template>
@@ -19,6 +20,7 @@
     import FeatureSection from '@/components/sections/feature.vue'
     import OurMenu from '@/components/sections/menu.vue'
     import HeaserSection from '@/components/sections/big-header.vue'
+    import TestimonialSection from '@/components/sections/testimonials.vue'
     import Navbar from '@/components/navbar.vue'
 
     import { useHomeService } from '@/services/homeservices'
@@ -33,7 +35,8 @@
             FeatureSection,
             OurMenu,
             HeaserSection,
-            Navbar
+            Navbar,
+            TestimonialSection
         },
 
         async setup(){

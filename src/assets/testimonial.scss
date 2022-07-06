@@ -1,0 +1,71 @@
+@import './variable.scss';
+
+.section-testimonials {
+    padding-top: 118px;
+    padding-bottom: 145px;
+}
+
+.testimonial-item {
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+.content-testimonial {
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: $black
+}
+
+.testimonial-icon-quote{
+    position: absolute;
+    top: 0px;
+    right: 108Px;
+}
+
+.testimonial-owner {
+    margin-top: 86px;
+}
+
+.testimonial-owner-info {
+    margin-left: 60px;
+}
+
+.testimonial-owner-name{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: $black;
+}
+
+.testimonial-owner-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: $dark_grey;
+}
+
+.testimonial-pagination-indicator{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: $black;
+}
+
+.btn-paginate {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-paginate.disabled i {
+    color: $grey;
+}
