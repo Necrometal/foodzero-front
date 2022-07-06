@@ -7,7 +7,7 @@
 ## Install
 - git clone
 - change .env.example to .env or create .env file and copy the content inside
-- change your VITE_APP_URL and VITE_API depending on your server
+- change your VITE_APP_URL (url du server front) and VITE_API (base url de l'api) depending on your server
 
     > npm install / yarn
 
