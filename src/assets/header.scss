@@ -48,3 +48,66 @@
     color: $white;
     margin-top: 50px;
 }
+
+.header-title-about {
+    width: 915px !important;
+}
+
+.tomato-vector {
+    position: absolute;
+    left: 36%;
+    top: 94px;
+    transform: matrix(0.93, -0.31, 0.37, 0.95, 0, 0);
+}
+
+.section-story {
+    padding-top: 218px;
+    padding-bottom: 117px;
+}
+
+.story-title h2{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 108px;
+    line-height: 120px;
+    color: $black;
+}
+
+.story-description{
+    margin-bottom: 94px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $dark_grey;
+}
+
+.history-image-container img {
+    width: 100%;
+}
+
+.staff-title{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 84px;
+    color: $black;
+}
+
+.staff-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: $black;
+}
+
+.staff-image img {
+    width: 100%;
+}

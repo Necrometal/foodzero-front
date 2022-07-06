@@ -4,7 +4,7 @@
             <slot name="image"></slot>
         </div>
 
-        <div class="header-title-container container-section position-relative">
+        <div class="header-title-container container-section position-relative" :class="classe?.titleContainer ?? ''">
             <div class="header-title" :class="classe?.title ?? ''">
                 <div class="header-title-content">
                     <h1>
