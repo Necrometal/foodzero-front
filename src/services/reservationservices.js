@@ -40,15 +40,13 @@ export function useReservationService(){
     })
 
     const reset = function(){
-        formReservation = {
-            firstname: null,
-            lastname: null,
-            email: null,
-            phone: null,
-            date: null,
-            hour: null,
-            person: null,
-        }
+        formReservation.firstname = null;
+        formReservation.lastname = null;
+        formReservation.email = null;
+        formReservation.phone = null;
+        formReservation.date = null;
+        formReservation.hour = null;
+        formReservation.person = null;
     }
 
     const sendReservation = async function(e){
